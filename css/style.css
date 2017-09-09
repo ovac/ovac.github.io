@@ -723,12 +723,35 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 10px;
 }
 
+@media(min-width:300px) {
+
+	.intro{
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(//res.cloudinary.com/ovac/image/upload/v1504965794/aboust_ey5v1v.jpg);
+		background-size: cover, cover;
+	}
+
+	.intro .btn{
+		margin-bottom: 10px;
+	}
+	.vegas-overlay, .vegas-slide, .vegas-timer{
+		display: none !important;
+	}
+}
+
 /* Media Queries */
 @media(min-width:768px) {
+.vegas-overlay, .vegas-timer, .vegas-slide{
+	display: block !important;
+}
 .intro {
 	height: 100%;
 	padding: 0;
 	text-align: left;
+	background: url(//res.cloudinary.com/ovac/image/upload/v1504965794/aboust_ey5v1v.jpg) no-repeat center center;
+	background-size: cover;
+}
+.intro .btn {
+	margin-bottom: 10px;
 }
 .intro .intro-body H1 {
 	font-family: 'Lato', sans-serif;
