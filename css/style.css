@@ -219,7 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Services Section */
 #services {
 	padding: 80px 0;
-	background: url(../img/services-bg.jpg);
+	background: url(//res.cloudinary.com/ovac/image/upload/v1504964479/services-bg_y4z5z7.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -375,7 +375,7 @@ ol.type li a:hover {
 /* Skills Section */
 #skills {
 	padding: 80px 0;
-	background: url(../img/skills-bg.jpg);
+	background: url(//res.cloudinary.com/ovac/image/upload/v1504964607/skills-bg_gvaoy1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -529,7 +529,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Achivements Section */
 #achievements {
 	padding: 80px 0;
-	background: url(../img/achivements-bg.jpg);
+	background: url(//res.cloudinary.com/ovac/image/upload/v1504964731/achivements-bg_xqnyku.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -608,7 +608,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #contact {
 	padding: 80px 0 40px 0;
 	color: #f4f5f6;
-	background: url(../img/contact-bg.jpg);
+	background: url(//res.cloudinary.com/ovac/image/upload/v1504964798/contact-bg_oheywm.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
