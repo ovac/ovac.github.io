@@ -1,6 +1,6 @@
-# ovac.github.io
+# ovac.github.io - [www.ovac4u.com](http://www.ovac4u.com)
 
-This is my static about-me website and portfolio website and a bundle of most of my contents on the web. Happy exploring.
+This is my static about-me and portfolio website and a bundle of most of my contents on the web. Happy exploring.
 
 ```md
  Follow me anywhere @ovac4u                         | GitHub
