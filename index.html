@@ -607,7 +607,12 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="col-md-4"><i class="fa fa-map-marker fa-2x"></i>
           <p>Real-Time (Right now)</p>
-          <p id="location"></p>
+          <p id="location">
+            <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://maps.google.com/?z=14&q=East+Legon%2C+Accra.+Ghana" target="_blank">
+              <span itemprop="addressLocality">East Legon</span>,
+              <span itemprop="addressRegion">Accra</span>.
+              <span itemprop="addressCountry">Ghana</span>
+            </a>
           </p>
         </div>
         <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
@@ -715,7 +720,7 @@
       feed.run();
     });
   </script>
-  <script src="//www.pocket-locator.com/api/?k=872f7da0c11af571170712d87880fc38&f=js&id=location" async defer></script>
+  <!-- script src="//www.pocket-locator.com/api/?k=872f7da0c11af571170712d87880fc38&f=js&id=location" async defer></script -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599a2b3ed56dd5f2"></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
