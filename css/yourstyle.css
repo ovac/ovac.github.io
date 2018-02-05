@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*--
+	Add your style here
+--*/ 
+.menu-wrap {
+        right:0 !important;
+	-webkit-transform: translate3d(320px,0,0);
+	transform: translate3d(320px,0,0);
+	visibility:hidden;
+}
+
+.show-menu .menu-wrap,
+.show-menu .menu-inner ,
+.show-menu .morph-shape  {
+        -webkit-transform: translate3d(-30px,0,0);
+        transform: translate3d(-30px,0,0);
+}
+.show-menu .menu-wrap {
+	right:0;
+	opacity:1;
+	visibility:visible;
+}
