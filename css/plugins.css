@@ -294,7 +294,7 @@
 	left:0;
 	z-index:10;
 }
- .owl-dots .owl-dot{display:inline-block;zoom:1;*display:inline ;}
+.owl-dots .owl-dot{display:inline-block;zoom:1;*display:inline ;}
 .owl-dots .owl-dot span{
 	width:8px;
 	height:8px;

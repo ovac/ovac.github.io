@@ -128,7 +128,7 @@
                             <li><a class="scroll-link" href="#sec7">Services</a></li>
                             <li><a class="scroll-link" href="#sec8">Clients</a></li>
                             <li><a class="scroll-link" href="#sec9">Contact</a></li>
-                            <li><a class="scroll-link" href="https://blog.ovac4u.com">BLog</a></li>
+                            <li><a class="scroll-link" href="https://blog.ovac4u.com">Blog</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -1395,11 +1395,11 @@
                                             <div class="footer-widget fl-wrap">
                                                 <div class="footer-menu fl-wrap">
                                                     <ul>
-                                                        <li><a href="index.html">Home </a></li>
-                                                        <li><a href="about.html">About</a></li>
-                                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="contacts.html">Contacts</a></li>
+                                                        <li><a class="scroll-link" href="#sec2">About</a></li>
+                                                        <li><a class="scroll-link" href="#sec6">Work</a></li>
+                                                        <li><a class="scroll-link" href="#sec7">Services</a></li>
+                                                        <li><a class="scroll-link" href="#sec8">Clients</a></li>
+                                                        <li><a class="scroll-link" href="https://blog.ovac4u.com">Blog</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1479,78 +1479,78 @@
         <script type="text/javascript" src="js/map.js"></script>
 
 
-  <script type="text/javascript" src="js/ovac4u/bootstrap.js"></script>
-  <script type="text/javascript" src="js/ovac4u/easypiechart.js"></script>
-  <script type="text/javascript" src="js/ovac4u/jquery.prettyPhoto.js"></script>
-  <script type="text/javascript" src="js/ovac4u/jquery.isotope.js"></script>
-  <script type="text/javascript" src="js/ovac4u/jquery.counterup.js"></script>
-  <script type="text/javascript" src="js/ovac4u/waypoints.js"></script>
-  <script type="text/javascript" src="js/ovac4u/jqBootstrapValidation.js"></script>
-  <script type="text/javascript" src="js/ovac4u/contact_me.js"></script>
-  <script type="text/javascript" src="js/ovac4u/owl.carousel.js"></script>
-  <script type="text/javascript" src="js/ovac4u/vegas.js"></script>
-  <script type="text/javascript" src="js/ovac4u/instafeed.js"></script>
-  <script type="text/javascript" src="js/ovac4u/main.js"></script>
-  <script>
-    $(document).ready(function() {
-      var userid = 253601294,
-        access_token = "253601294.1677ed0.f92b1909bb5b47ed9d9a2f0718b86d7a",
-        count = 5;
+        <script type="text/javascript" src="js/ovac4u/bootstrap.js"></script>
+        <script type="text/javascript" src="js/ovac4u/easypiechart.js"></script>
+        <script type="text/javascript" src="js/ovac4u/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="js/ovac4u/jquery.isotope.js"></script>
+        <script type="text/javascript" src="js/ovac4u/jquery.counterup.js"></script>
+        <script type="text/javascript" src="js/ovac4u/waypoints.js"></script>
+        <script type="text/javascript" src="js/ovac4u/jqBootstrapValidation.js"></script>
+        <script type="text/javascript" src="js/ovac4u/contact_me.js"></script>
+        <script type="text/javascript" src="js/ovac4u/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/ovac4u/vegas.js"></script>
+        <script type="text/javascript" src="js/ovac4u/instafeed.js"></script>
+        <script type="text/javascript" src="js/ovac4u/main.js"></script>
+        <script>
+          $(document).ready(function() {
+            var userid = 253601294,
+              access_token = "253601294.1677ed0.f92b1909bb5b47ed9d9a2f0718b86d7a",
+              count = 5;
 
-      var feed = new Instafeed({
+            var feed = new Instafeed({
 
-        mock: true,
-        get: 'user',
-        userId: userid,
-        sortBy: 'random',
-        accessToken: access_token,
+              mock: true,
+              get: 'user',
+              userId: userid,
+              sortBy: 'random',
+              accessToken: access_token,
 
-        success: function(response) {
-          var slides = response.data.map(function(obj) {
-            var rObj = {};
-            rObj["src"] = obj.images.standard_resolution.url;
-            return rObj;
+              success: function(response) {
+                var slides = response.data.map(function(obj) {
+                  var rObj = {};
+                  rObj["src"] = obj.images.standard_resolution.url;
+                  return rObj;
+                });
+
+                $('.bg.main').vegas({
+                  slides: slides,
+                  shuffle: true,
+                  transition: 'blur2',
+                  align: 'middle',
+                  overlay: '/css/overlays/08.png'
+                });
+              }
+
+            });
+            feed.run();
           });
+        </script>
 
-          $('.bg.main').vegas({
-            slides: slides,
-            shuffle: true,
-            transition: 'blur2',
-            align: 'middle',
-            overlay: '/css/overlays/08.png'
-          });
-        }
+        <script
+          data-subdomain="ovac"
+          data-name="pushowl"
+          src="https://cdn.pushowl.com/static/cdn/widget.js">
+        </script>
+        <!-- script src="//www.pocket-locator.com/api/?k=872f7da0c11af571170712d87880fc38&f=js&id=location" async defer></script -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599a2b3ed56dd5f2"></script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-TWFSSDL');</script>
+          <!-- End Google Tag Manager -->
+          <!-- Google Analytics -->
+          <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      });
-      feed.run();
-    });
-  </script>
-
-  <script
-    data-subdomain="ovac"
-    data-name="pushowl"
-    src="https://cdn.pushowl.com/static/cdn/widget.js">
-  </script>
-  <!-- script src="//www.pocket-locator.com/api/?k=872f7da0c11af571170712d87880fc38&f=js&id=location" async defer></script -->
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599a2b3ed56dd5f2"></script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TWFSSDL');</script>
-    <!-- End Google Tag Manager -->
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-104991685-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-    <!-- End Google Analytics -->
+          ga('create', 'UA-104991685-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
 
     </body>
 </html>
