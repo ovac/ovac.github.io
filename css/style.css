@@ -148,7 +148,7 @@ blockquote p {
 	position:relative;
 	z-index:4;
 	float:left;
-	/* background:#fff; */
+	background:#fff;
 }
 .scroll-con {
 	padding-top:100px;
@@ -733,7 +733,7 @@ footer.main-footer {
 	z-index:22;
 }
 .fullheight-carousel-holder {
-	/* background:#fff; */
+	background:#fff;
 }
 .full-screen-item {
 	position:relative;
