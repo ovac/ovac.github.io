@@ -6,7 +6,7 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
-h1 {
+/* h1 {
 	font-weight: 700;
 }
 h1 strong {
@@ -26,7 +26,7 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
-}
+} */
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
@@ -844,51 +844,5 @@ header .intro-text {
 	float: right;
 	padding: 0 30px 20px 20px;
 	text-align: left;
-}
-}
-
-@media(min-width:992px) {
-#here-me h1 {
-	margin: 10px 0 0px;
-}
-.timeline>li {
-	min-height: 150px;
-}
-.timeline>li .timeline-panel {
-	padding: 0 20px 20px;
-}
-.timeline>li .timeline-image {
-	width: 150px;
-	height: 150px;
-	margin-left: -75px;
-}
-.timeline>li .timeline-image h4 {
-	margin-top: 30px;
-	font-size: 18px;
-	line-height: 26px;
-}
-.timeline>li.timeline-inverted>.timeline-panel {
-	padding: 0 20px 20px;
-}
-}
-
-@media(min-width:1200px) {
-.timeline>li {
-	min-height: 170px;
-}
-.timeline>li .timeline-panel {
-	padding: 10px 20px 20px 100px;
-}
-.timeline>li .timeline-image {
-	width: 150px;
-	height: 150px;
-	margin-left: -75px;
-}
-.timeline>li .timeline-image h4 {
-	margin-top: 40px;
-	font-weight: 400;
-}
-.timeline>li.timeline-inverted>.timeline-panel {
-	padding: 10px 100px 20px 20px;
 }
 }
