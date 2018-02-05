@@ -345,25 +345,25 @@ function initKvest() {
         currentClass: "act-link"
     });
 	// share------------------
-    var shcm = $(".share-container"),
-		shs = eval(shcm.attr("data-share")),
-		ssr =  $(".show-share") ;
-    shcm.share({
-        networks: shs
-    });
-    function hideShare() {
-        ssr.addClass("isShare");
-        shcm.fadeOut(400);
-    }
-    function showShare() {
-		shcm.fadeIn(400);
-        ssr.removeClass("isShare");
-    }
-    ssr.on("click", function(a) {
-        a.preventDefault();
-        if (ssr.hasClass("isShare")) showShare(); else hideShare();
-		return false;
-    });
+    // var shcm = $(".share-container"),
+		// shs = eval(shcm.attr("data-share")),
+		// ssr =  $(".show-share") ;
+    // shcm.share({
+    //     networks: shs
+    // });
+    // function hideShare() {
+    //     ssr.addClass("isShare");
+    //     shcm.fadeOut(400);
+    // }
+    // function showShare() {
+		// shcm.fadeIn(400);
+    //     ssr.removeClass("isShare");
+    // }
+    // ssr.on("click", function(a) {
+    //     a.preventDefault();
+    //     if (ssr.hasClass("isShare")) showShare(); else hideShare();
+		// return false;
+    // });
 	// tabs------------------
     $("ul.tabs li").on("click", function() {
         var a = $(this).attr("data-tab");

@@ -19,9 +19,11 @@ body{
 	font-size: 12px;
 	height: 100%;
 	text-align: center;
-	background: #202020;
-	color: #000;
+
 	font-family: 'Raleway', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #616e7c;
 }
 @-o-viewport {width: device-width;}
 @-ms-viewport {width: device-width;}
@@ -2820,18 +2822,19 @@ source {
 	font-size:16px;
 	padding-bottom:8px;
 }
-.show-share.isShare  i:before {
+/* .show-share.isShare  i:before {
 	content: "\f1e0";
 }
 .show-share i:before {
 	content: "\f00d";
-}
+} */
 .show-share span {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style:italic;
-	color:#eee;
-	opacity:0.6;
+	/* font-family: Georgia, "Times New Roman", Times, serif; */
+	/* font-style:italic; */
+	color:#ffffff;
+	/* opacity:0.6; */
 	font-size:11px;
+	font-weight: bolder;
 }
 .share-container {
 	position:fixed;
@@ -3330,7 +3333,7 @@ header.main-header  , .column-wrap {
 	background:none !important;
 	padding:10px 0 !important;
 	text-align:right;
-	float:right;
+	float:left;
 }
 .nav-holder nav li ul li a {
 	color:rgba(255,255,255,0.71);
