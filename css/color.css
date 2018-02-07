@@ -2,15 +2,22 @@
 /*--
 	Color styles
 --*/
-.bio-list-wrap ul li a:hover , .bio-list-wrap ul:after , .testimonials-slider ul.star-rating li  , .info-button i , .arrowpagenav a:before , .to-top i , .footer-social li a , .contact-info i ,   .show-share i , .box-item.vis-det a.image-popup , .box-item.vis-det a.popgal , .fixed-filter .gallery-filters a.gallery-filter-active , .text-title span , .dec-list li span , .single-slider-holder .customNavigation a , .sing-con-slider .customNavigation a  , .post-meta i , .footer-menu li a:hover , .subscribe-message i {
-	color:#ffa500
+header li.act-link a , .text-title span , .dec-list li:before  , .resum-header i , .sl-tabs li i , .testimonials-slider ul.star-rating li , .to-top-wrap i ,.scroll-nav a.external:after , .mail-link:hover  , .price  , .fixed-filter .gallery-filters a.gallery-filter-active , .slider-zoom , .page-nav a span , .post-meta li i , .post-author-wrap li a , .controls button , .sliding-menu a:hover{
+	color:#ffa500;
 }
-#jpreBar , .nav-button span , .dynamic-title-wrap:before , .dynamic-title-wrap:after ,  .bold-separator , ul.tabs li.current .tb-item  , .resum-header:before  , .resum-header:after , .color-bg , .custom-skillbar , #subscribe-button  , .teti-counter , .testimonials-slider-holder .customNavigation a , .price , .logo-holder ,.nav-holder  nav li   a.act-link , .scroll-nav li a.act-link    ,   .section-separator:after , .serv-carousel-wrap .customNavigation a , .process-wrap li i , .progress-bar , #contact-form input[type="submit"]  , .bold-title:before , .share-icon , .slider-opt-holder .customNavigation a , .slide-progress  , .panel-dots .owl-dot.active span  , .inline-filter .gallery-filters a.gallery-filter-active , .inline-filter .folio-counter , .fixed-filter .folio-counter , .prev-project .prnav-title:before , .next-project .prnav-title:before , .center-nav a  , .slider-zoom   , .show-det-button , .go-fullscreen  , .search-submit , .current-page , .post-author-wrap li a , .controls .button , .single-carousel-holder .customNavigation a , .num-holder3 , .nav-button-wrap span , .btn , .scroll-nav a.act-link{
-	background:#ffa500
+header.sticky  li.act-link a , .footer-social li a  ,   .share-icon , .fixed-icons-wrap ul li a  , .bold-separator , .fixed-column , .btn , .scroll-nav li a.act-link:before  , .scroll-nav li a.act-link:after  , .custom-skillbar , .price:before , .color-bg , ul.tabs li.current .tb-item , .testimonials-slider-holder .customNavigation a  , .accordion-title.activeac  h5 a , .resum-header:before  , .menu-inner:before , .customNavigation.gals a , .bold-title:before  , #submit , .grid-det h3:before , .inline-filter .gallery-filters a.gallery-filter-active , .box-item.vis-det a , .inline-filter .folio-counter , .fixed-filter .folio-counter , .box-item.hd-box .image-popup , .post-tags li a:hover , .pagination a.current-page , .pagination a:hover , .carousel-item h3:before   , .box-item.vis-det a.popgal , .show-share:before{
+	background:#ffa500;
 
 }
-@media only screen and  (max-width: 1064px) {
-.nav-holder nav li a.act-link {
-	color:#ffa500
+.progress-bar {
+	background:#ffa500;
+
 }
+.loader {
+	border-top: 10px solid  #ffa500;
+	border-right: 10px solid #ffa500;
+	border-bottom: 10px solid #ffa500;
+}
+.hd-box-wrap h2:after{
+	border-color: transparent #ffa500 transparent transparent;
 }

@@ -1,22 +1,185 @@
 @charset "utf-8";
 /*--
 	Add your style here
---*/ 
-.menu-wrap {
-        right:0 !important;
-	-webkit-transform: translate3d(320px,0,0);
-	transform: translate3d(320px,0,0);
-	visibility:hidden;
+--*/
+.process-wrap li i {
+    width: 120px;
+    height: 120px;
+    line-height: 110px;
+    background: #eee;
+    margin: 0 auto 20px;
+    color: #666;
+    font-size: 39px;
+    border-radius: 100%;
+    border: 3px solid #f9f9f9;
+    text-shadow: 4px 4px 2px #969696;
+}
+.process-wrap li h4 {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.process-wrap li {
+    float: left;
+    width: 33.3%;
+    padding: 15px 50px;
+    position: relative;
 }
 
-.show-menu .menu-wrap,
-.show-menu .menu-inner ,
-.show-menu .morph-shape  {
-        -webkit-transform: translate3d(-30px,0,0);
-        transform: translate3d(-30px,0,0);
+.contacts>*>* {
+    text-align: center;
+    font-size: 12pt;
 }
-.show-menu .menu-wrap {
-	right:0;
-	opacity:1;
-	visibility:visible;
+
+
+.bio-list-wrap {
+	padding:20px;
+	margin-top:20px auto;
+}
+.bio-list-wrap.main-list {
+	padding-left:0;
+	margin-top:0;
+}
+.bio-list-wrap ul {
+	float:left;
+	width:100%;
+	background:#f9f9f9;
+	padding:20px 25px;
+}
+.bio-list-wrap ul:after {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    content: "\f2ba";
+    position: absolute;
+    color: #666;
+    bottom: 10px;
+    font-size: 70px;
+    right: 10px;
+    opacity: 0.18;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.bio-list-wrap ul li {
+	float:left;
+	width:100%;
+	text-align:left;
+	padding:10px 0;
+
+}
+.bio-list-wrap ul li span {
+	font-weight:bold;
+}
+.order-wrap {
+	margin-top:80px;
+}
+.order-wrap:before {
+	content:'';
+	position:absolute;
+	top:-20px;
+	left:50%;
+	margin-left:-20px;
+	width:40px;
+	height:2px;
+	background:#999;
+}
+.order-wrap h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	color:#494949;
+	padding-bottom:20px;
+	font-size:24px;
+}
+
+/*===============================*/
+
+@media(max-width:760px) {
+
+	.full-screen-item{
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(//res.cloudinary.com/ovac/image/upload/v1504965794/aboust_ey5v1v.jpg);
+		background-size: cover, cover;
+	}
+
+	.full-screen-item .btn{
+		margin-bottom: 10px;
+	}
+	.vegas-overlay, .vegas-slide, .vegas-timer{
+		display: none !important;
+	}
+}
+
+/* Media Queries */
+@media(min-width:768px) {
+	.vegas-overlay, .vegas-timer, .vegas-slide{
+		display: block !important;
+	}
+}
+@media(max-width:768px) {
+
+	.full-screen-item{
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(//res.cloudinary.com/ovac/image/upload/v1504965794/aboust_ey5v1v.jpg);
+		background-size: cover, cover;
+	}
+
+	.full-screen-item .btn{
+		margin-bottom: 10px;
+	}
+	.vegas-overlay, .vegas-slide, .vegas-timer{
+		display: none !important;
+	}
+
+@media(min-width:992px) {
+	#here-me h1 {
+		margin: 10px 0 0px;
+	}
+	.timeline>li {
+		min-height: 150px;
+	}
+	.timeline>li .timeline-panel {
+		padding: 0 20px 20px;
+	}
+	.timeline>li .timeline-image {
+		width: 150px;
+		height: 150px;
+		margin-left: -75px;
+	}
+	.timeline>li .timeline-image h4 {
+		margin-top: 30px;
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.timeline>li.timeline-inverted>.timeline-panel {
+		padding: 0 20px 20px;
+	}
+}
+
+@media(min-width:1200px) {
+	.timeline>li {
+		min-height: 170px;
+	}
+	.timeline>li .timeline-panel {
+		padding: 10px 20px 20px 100px;
+	}
+	.timeline>li .timeline-image {
+		width: 150px;
+		height: 150px;
+		margin-left: -75px;
+	}
+	.timeline>li .timeline-image h4 {
+		margin-top: 40px;
+		font-weight: 400;
+	}
+	.timeline>li.timeline-inverted>.timeline-panel {
+		padding: 10px 100px 20px 20px;
+	}
+}
+
+@media(max-width:1400px) {
+  .bg-title.alt, .copyright, .show-share.isShare {
+    display: none !important;
+  }
 }
