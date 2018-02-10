@@ -187,12 +187,6 @@
     margin: auto;
   }
 
-  .hero-wrap .overlay {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(https://res.cloudinary.com/ovac/image/upload/h_500/v1504965794/aboust_ey5v1v.jpg);
-    background-size: cover, cover;
-    opacity: 1;
-  }
-
   .btn.hide-icon i {
     max-height: 100%;
     font-size: 14px;
@@ -210,6 +204,12 @@
     border: 1px solid #000;
     background: none;
     padding: 16px;
+  }
+
+  .hero-wrap .overlay {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(https://res.cloudinary.com/ovac/image/upload/h_500/v1504965794/aboust_ey5v1v.jpg);
+    background-size: cover, cover;
+    opacity: 1;
   }
 }
 
