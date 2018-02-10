@@ -179,14 +179,8 @@
 
   .hero-wrap-item h4, .hero-wrap-item h4 a {
     font-family: 'Lato', sans-serif;
-    /* font-style: italic; */
     font-size: 20px;
-    /* margin-bottom: 40px; */
     color: #76818d;
-    /* margin-top: 20px; */
-
-    /* margin-bottom: 10px; */
-    /* height: 10px; */
     max-width: 300px;
     font-size: 10pt;
     display: block;
