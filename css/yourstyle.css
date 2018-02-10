@@ -22,11 +22,9 @@
     font-weight: 700;
     font-size: 16px;
 }
-.process-wrap li {
-    float: left;
-    width: 33.3%;
-    padding: 15px 50px;
-    position: relative;
+
+.process-wrap li p {
+  text-align: center;
 }
 
 .contacts>*>* {
@@ -98,15 +96,6 @@
 /*===============================*/
 
 @media(max-width:760px) {
-
-	.full-screen-item{
-		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(//res.cloudinary.com/ovac/image/upload/v1504965794/aboust_ey5v1v.jpg);
-		background-size: cover, cover;
-	}
-
-	.full-screen-item .btn{
-		margin-bottom: 10px;
-	}
 	.vegas-overlay, .vegas-slide, .vegas-timer{
 		display: none !important;
 	}
@@ -120,17 +109,93 @@
 }
 @media(max-width:768px) {
 
-	.full-screen-item{
-		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(//res.cloudinary.com/ovac/image/upload/v1504965794/aboust_ey5v1v.jpg);
-		background-size: cover, cover;
-	}
-
-	.full-screen-item .btn{
-		margin-bottom: 10px;
-	}
 	.vegas-overlay, .vegas-slide, .vegas-timer{
 		display: none !important;
 	}
+
+  .section-title h2, .hero-wrap-item h2 {
+      font-size: 25pt;
+      font-family: 'Lato', sans-serif;
+      font-weight: 600;
+      letter-spacing: -2px;
+      color: #2c3e50;
+  }
+
+  .hero-wrap-item {
+    padding: 0;
+  }
+
+  .hero-wrap-item.right-her .container {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero-wrap-item h3 {
+    float: right;
+    width: 100%;
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+
+  .hero-wrap-item.right-her .btn, .hero-wrap-item.right-her p {
+    float: left !important;
+  }
+
+  .hero-wrap-item.right-her .btn, .hero-wrap-item.right-her p {
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background: none;
+    color: #2c3e50;
+    align-items: center;
+    padding: 3px;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    border-radius: 4px;
+    margin: 20px 5px;
+  }
+
+  .hero-wrap-item.right-her .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn.hide-icon span {
+    padding: 0 10px;
+  }
+
+  .hero-wrap-item h4, .hero-wrap-item h4 a {
+    font-family: 'Lato', sans-serif;
+    /* font-style: italic; */
+    font-size: 20px;
+    /* margin-bottom: 40px; */
+    color: #76818d;
+    /* margin-top: 20px; */
+
+    /* margin-bottom: 10px; */
+    /* height: 10px; */
+
+    font-size: 10pt;
+  }
+
+  .hero-wrap .overlay {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8fxsAAt8B3GRCabIAAAAASUVORK5CYII=), url(https://res.cloudinary.com/ovac/image/upload/h_500/v1504965794/aboust_ey5v1v.jpg);
+    background-size: cover, cover;
+    opacity: 1;
+  }
+
+  .btn.hide-icon i {
+    display: none;
+  }
+}
 
 @media(min-width:992px) {
 	#here-me h1 {
