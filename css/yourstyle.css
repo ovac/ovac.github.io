@@ -95,6 +95,10 @@
 
 /*===============================*/
 
+.hero-wrap-item .social-buttons {
+  display: none;
+}
+
 @media(max-width:760px) {
 	.vegas-overlay, .vegas-slide, .vegas-timer{
 		display: none !important;
@@ -139,11 +143,12 @@
     margin-bottom: 20px;
   }
 
-  .hero-wrap-item.right-her .btn, .hero-wrap-item.right-her p {
-    float: left !important;
+  .hero-wrap-item .social-buttons {
+    display: block;
   }
 
   .hero-wrap-item.right-her .btn, .hero-wrap-item.right-her p {
+    float: left !important;
     border: 1px solid black;
     font-size: 14px;
     font-weight: normal;
@@ -182,8 +187,10 @@
 
     /* margin-bottom: 10px; */
     /* height: 10px; */
-
+    max-width: 300px;
     font-size: 10pt;
+    display: block;
+    margin: auto;
   }
 
   .hero-wrap .overlay {
@@ -193,7 +200,22 @@
   }
 
   .btn.hide-icon i {
-    display: none;
+    max-height: 100%;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+
+  .hero-wrap-item .social-buttons {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .hero-wrap-item .social-buttons .social {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: none;
+    padding: 16px;
   }
 }
 
