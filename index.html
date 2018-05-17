@@ -91,6 +91,22 @@
         <link type="text/css" rel="stylesheet" href="css/yourstyle.css">
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/favicon.ico">
+        <style>
+          #map {
+              position: fixed;
+              top: 5%;
+              left: 100px;
+              width: 120px;
+              height: 90%;
+              z-index: 999;
+              display: none;
+          }
+          @media (min-width: 1000px) {
+            #map {
+              display: block;
+            }
+          }
+      </style>
     </head>
     <body>
         <!--================= loader ================-->
@@ -1430,6 +1446,8 @@
             <!-- Share container  end-->
         </div>
 
+        <canvas id="map" class="hidden-sm"></canvas>
+
         <!-- Main end -->
         <!--=============== scripts  ===============-->
         <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -1440,6 +1458,10 @@
         <script type="text/javascript" src="js/ovac4u/owl.carousel.js"></script>
         <script type="text/javascript" src="js/ovac4u/vegas.js"></script>
         <script type="text/javascript" src="js/ovac4u/instafeed.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pagemap/dist/pagemap.min.js"></script>
+        <script>
+            pagemap(document.querySelector('#map'));
+        </script>
         <script>
           $(document).ready(function() {
             var userid = 253601294,
