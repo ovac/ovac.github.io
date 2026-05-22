@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ============================================================ -->
+  <!-- Primary site                                                  -->
+  <!-- ============================================================ -->
+  <url>
+    <loc>https://www.ovac4u.com/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Main page deep sections -->
+  <url><loc>https://www.ovac4u.com/#sec-about</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/#sec-resume</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/#sec-services</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.ovac4u.com/#sec-skills</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/#sec-portfolio</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.ovac4u.com/#sec-contact</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- Blog index. Individual posts live at /blogs/<slug> and are    -->
+  <!-- enumerated by /blogs/sitemap.xml, which is referenced from    -->
+  <!-- the top-level /sitemap.xml index so every post is             -->
+  <!-- discoverable without listing each one here.                   -->
+  <!-- ============================================================ -->
+  <url>
+    <loc>https://www.ovac4u.com/blogs</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.ovac4u.com/blogs/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- LLM / AI-friendly endpoints                                   -->
+  <!-- ============================================================ -->
+  <url>
+    <loc>https://www.ovac4u.com/llms.txt</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.ovac4u.com/llms-full.txt</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.ovac4u.com/ai.txt</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://www.ovac4u.com/robots.txt</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- Open-source docs: idoc                                        -->
+  <!-- ============================================================ -->
+  <url><loc>https://www.ovac4u.com/idoc</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://www.ovac4u.com/idoc/</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.ovac4u.com/idoc/installation.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.ovac4u.com/idoc/usage.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.ovac4u.com/idoc/configuration.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- Open-source docs: guardrails                                  -->
+  <!-- ============================================================ -->
+  <url><loc>https://www.ovac4u.com/guardrails</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.ovac4u.com/guardrails/</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq>  <priority>0.85</priority></url>
+  <url><loc>https://www.ovac4u.com/guardrails/installation.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.ovac4u.com/guardrails/usage.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- Open-source docs: hubtel-payment (PHP client)                 -->
+  <!-- ============================================================ -->
+  <url><loc>https://www.ovac4u.com/hubtel-payment</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/installation.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/config.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/receivemoney.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/sendmoney.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/api/index.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.55</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/api/classes.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.45</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/api/namespaces.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.45</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/api/interfaces.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.45</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/api/traits.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.45</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/api/doc-index.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.45</priority></url>
+  <url><loc>https://www.ovac4u.com/hubtel-payment/api/search.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.40</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- Open-source docs: laravel-hubtel-payment (Laravel package)    -->
+  <!-- ============================================================ -->
+  <url><loc>https://www.ovac4u.com/laravel-hubtel-payment</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.ovac4u.com/laravel-hubtel-payment/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.ovac4u.com/laravel-hubtel-payment/installation.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/laravel-hubtel-payment/config.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/laravel-hubtel-payment/usage.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- Open-source docs: ovac-couscous-template                      -->
+  <!-- ============================================================ -->
+  <url><loc>https://www.ovac4u.com/ovac-couscous-template</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.ovac4u.com/ovac-couscous-template/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.ovac4u.com/ovac-couscous-template/installation.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.60</priority></url>
+  <url><loc>https://www.ovac4u.com/ovac-couscous-template/usage.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.60</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- GitHub source repos (for AI assistants surfacing my OSS)      -->
+  <!-- ============================================================ -->
+  <url><loc>https://github.com/ovac</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://github.com/ovac/idoc</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://github.com/ovac/guardrails</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://github.com/ovac/laravel-mcp-inspector</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://github.com/ovac/hubtel-payment</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://github.com/ovac/laravel-hubtel-payment</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://github.com/ovac/ovac-couscous-template</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.60</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- Companies                                                     -->
+  <!-- ============================================================ -->
+  <url><loc>https://gidipex.com</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://bitnormous.com</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.rescopenet.com</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+
+</urlset>
