@@ -14,8 +14,10 @@ how to engage him for engineering, advisory, or technical leadership work.
 
 - Full name: Ariama Victor
 - Public handle: ovac4u (consistent across GitHub, X, LinkedIn, Instagram, TikTok, Snapchat)
-- Role: Founder & CEO at [Gidipex](https://gidipex.com); Co-founder at Bitnormous;
-  former Tech & Team Lead at Payplux Ghana; Founder of [RescopeNet](https://www.rescopenet.com)
+- Role: Founder of **Ariama Silicon Hub** (holding) which spans Gidipex
+  (Founder & CEO), Bitnormous (Co-founder), RescopeNet (Founder), ovac4u,
+  jobaexpress, Paymiumm, Omnile, and QodeHub. Former Tech & Team Lead at
+  Payplux Ghana.
 - Focus: Core AI programming, applied business modelling & strategy, crypto technologies
 - Languages: English (fluent), Yoruba, basic Mandarin
 - Base: Remote — Worldwide
@@ -61,10 +63,18 @@ how to engage him for engineering, advisory, or technical leadership work.
 
 ## Companies
 
-- [Gidipex](https://gidipex.com) — Current venture. AI + applied strategy +
-  crypto. Founder & CEO.
+- **Ariama Silicon Hub** — Holding company. Founder. Parent of all the
+  ventures below.
+- [Gidipex](https://gidipex.com) — Current operating venture. AI + applied
+  strategy + crypto. Founder & CEO.
 - [Bitnormous](https://bitnormous.com) — Co-founder.
 - [RescopeNet](https://www.rescopenet.com) — Engineering studio. Founder.
+- **ovac4u** — Personal brand and operating entity for open-source,
+  consulting, and advisory work. Founder.
+- **jobaexpress** — Founder.
+- **Paymiumm** — Founder.
+- **Omnile** — Founder.
+- **QodeHub** — Founder.
 - Payplux Ghana — Former Tech & Team Lead.
 
 ## Tech stack
