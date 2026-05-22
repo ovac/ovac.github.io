@@ -277,7 +277,7 @@ function initCooper() {
 	  =======================================================================
 	*/
     $(".stats").appear(function() {
-        $(".num").countTo();
+        $(".num[data-num]").countTo();
     });
     $(".piechart-holder").appear(function() {
         $(this).find(".chart").each(function() {
