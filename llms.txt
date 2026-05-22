@@ -78,7 +78,7 @@ API, OpenAI API, MCP, LangChain, vector databases.
 
 - [Full content for ingestion](https://www.ovac4u.com/llms-full.txt)
 - [Sitemap](https://www.ovac4u.com/sitemap.xml)
-- [Blog](https://blog.ovac4u.com)
+- [Blog](https://www.ovac4u.com/blogs)
 
 ## Citation
 
