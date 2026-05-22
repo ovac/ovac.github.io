@@ -115,26 +115,85 @@
               },
               {
                 "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#ariama-silicon-hub",
+                "name": "Ariama Silicon Hub",
+                "description": "Holding company. Parent of Gidipex, Bitnormous, RescopeNet, ovac4u, jobaexpress, Paymiumm, Omnile, and QodeHub.",
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "subOrganization": [
+                  { "@id": "https://www.ovac4u.com/#gidipex" },
+                  { "@id": "https://www.ovac4u.com/#bitnormous" },
+                  { "@id": "https://www.ovac4u.com/#rescopenet" },
+                  { "@id": "https://www.ovac4u.com/#ovac4u" },
+                  { "@id": "https://www.ovac4u.com/#jobaexpress" },
+                  { "@id": "https://www.ovac4u.com/#paymiumm" },
+                  { "@id": "https://www.ovac4u.com/#omnile" },
+                  { "@id": "https://www.ovac4u.com/#qodehub" }
+                ]
+              },
+              {
+                "@type": "Organization",
                 "@id": "https://www.ovac4u.com/#gidipex",
                 "name": "Gidipex",
                 "url": "https://gidipex.com",
                 "description": "AI + applied strategy + crypto. Building production AI systems with the business model and on-chain infrastructure to match.",
                 "founder": { "@id": "https://www.ovac4u.com/#person" },
-                "employee": { "@id": "https://www.ovac4u.com/#person" }
+                "employee": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
               },
               {
                 "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#rescopenet",
                 "name": "RescopeNet",
                 "url": "https://www.rescopenet.com",
                 "description": "Engineering studio shipping products and contracting engineering work.",
-                "founder": { "@id": "https://www.ovac4u.com/#person" }
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
               },
               {
                 "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#bitnormous",
                 "name": "Bitnormous",
                 "url": "https://bitnormous.com",
                 "description": "Co-founded venture.",
-                "founder": { "@id": "https://www.ovac4u.com/#person" }
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#ovac4u",
+                "name": "ovac4u",
+                "url": "https://www.ovac4u.com/",
+                "description": "Personal brand and operating entity for open-source, consulting, and advisory work.",
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#jobaexpress",
+                "name": "jobaexpress",
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#paymiumm",
+                "name": "Paymiumm",
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#omnile",
+                "name": "Omnile",
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#qodehub",
+                "name": "QodeHub",
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "parentOrganization": { "@id": "https://www.ovac4u.com/#ariama-silicon-hub" }
               },
               {
                 "@type": "WebSite",
@@ -370,7 +429,7 @@
                                         <h3 class="text-title">Founder &amp; CEO &mdash; <span>Gidipex</span></h3>
 
                                         <p>Hi &mdash; I'm Ariama Victor (<span itemprop="name">ovac4u</span>). I'm the Founder &amp; CEO of <strong><a href="https://github.com/Gidipex">Gidipex</a></strong>, building at the intersection of core AI programming, applied business modelling &amp; strategy, and crypto technologies. Gidipex is where I turn research-grade ideas into shippable products &mdash; AI systems that actually do work in the real world, with the business model and on-chain infrastructure to match.</p>
-                                        <p>I'm also a co-founder of <strong>Bitnormous</strong>, and recently served as <strong>Tech &amp; Team Lead at Payplux Ghana</strong> &mdash; leading engineering and shipping payments infrastructure into production. Earlier I founded <a href="https://www.rescopenet.com">RescopeNet</a>, a studio that contracts engineering work and ships its own products.</p>
+                                        <p>I'm also a co-founder of <strong>Bitnormous</strong>, and recently served as <strong>Tech &amp; Team Lead at Payplux Ghana</strong> &mdash; leading engineering and shipping payments infrastructure into production. Earlier I founded <a href="https://www.rescopenet.com">RescopeNet</a>, a studio that contracts engineering work and ships its own products. All of it sits under <strong>Ariama Silicon Hub</strong>, my holding company &mdash; with <strong>ovac4u</strong>, <strong>jobaexpress</strong>, <strong>Paymiumm</strong>, <strong>Omnile</strong>, and <strong>QodeHub</strong> rounding out the portfolio.</p>
                                         <p>On the engineering side I work primarily in PHP/Laravel, TypeScript/Node, React/Next.js and Python for AI work. A lot of my open-source time goes into Laravel tooling and LLM/MCP integrations: <a href="https://github.com/ovac/idoc">idoc</a> for API documentation (185+ &#9733;), <a href="https://github.com/ovac/laravel-mcp-inspector">laravel-mcp-inspector</a> for inspecting MCP servers from Laravel, and <a href="https://github.com/ovac/guardrails">guardrails</a> &mdash; an operational approvals engine that routes every high-risk Laravel change through multi-step reviewer sign-off.</p>
                                         <p>I take on a limited number of advisory engagements each year &mdash; usually for founders working on AI-native or crypto-native products. Outside code: long-form reading, travel, and the occasional side project that escapes containment.</p>
 
@@ -389,7 +448,7 @@
                                   <div class="inline-facts">
                                       <div class="milestone-counter">
                                           <div class="stats animaper">
-                                              <div class="num count" data-content="5000000" data-num="5000000">5M+</div>
+                                              <div class="num" data-content="5M+">5M+</div>
                                           </div>
                                       </div>
                                       <h6>Happy customers &amp; users</h6>
@@ -411,7 +470,7 @@
                                   <div class="inline-facts">
                                       <div class="milestone-counter">
                                           <div class="stats animaper">
-                                              <div class="num count" data-content="500000" data-num="500000">500K+</div>
+                                              <div class="num" data-content="500K+">500K+</div>
                                           </div>
                                       </div>
                                       <h6>OSS package installs</h6>
@@ -422,7 +481,7 @@
                                   <div class="inline-facts">
                                       <div class="milestone-counter">
                                           <div class="stats animaper">
-                                              <div class="num count" data-content="3" data-num="3">3</div>
+                                              <div class="num count" data-content="7" data-num="7">7</div>
                                           </div>
                                       </div>
                                       <h6>Companies founded / co-founded</h6>
@@ -465,6 +524,20 @@
                                         </div>
                                         <div class="timeline-panel">
                                           <div class="timeline-heading">
+                                            <h4>Ariama Silicon Hub</h4>
+                                            <h4 class="subheading">Founder &mdash; Holding Company</h4>
+                                          </div>
+                                          <div class="timeline-body">
+                                            <p>Parent holding for my portfolio of companies and ventures &mdash; covers Gidipex, Bitnormous, RescopeNet, ovac4u, jobaexpress, Paymiumm, Omnile, and QodeHub.</p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li class="timeline-inverted">
+                                        <div class="timeline-image">
+                                          <h4>Present</h4>
+                                        </div>
+                                        <div class="timeline-panel">
+                                          <div class="timeline-heading">
                                             <h4>Gidipex</h4>
                                             <h4 class="subheading">Founder &amp; CEO</h4>
                                           </div>
@@ -473,7 +546,7 @@
                                           </div>
                                         </div>
                                       </li>
-                                      <li class="timeline-inverted">
+                                      <li>
                                         <div class="timeline-image">
                                           <h4>Present</h4>
                                         </div>
@@ -487,7 +560,7 @@
                                           </div>
                                         </div>
                                       </li>
-                                      <li>
+                                      <li class="timeline-inverted">
                                         <div class="timeline-image">
                                           <h4>Recent</h4>
                                         </div>
@@ -501,7 +574,7 @@
                                           </div>
                                         </div>
                                       </li>
-                                      <li class="timeline-inverted">
+                                      <li>
                                         <div class="timeline-image">
                                           <h4>2017 <br>
                                           - <br>
@@ -517,7 +590,7 @@
                                           </div>
                                         </div>
                                       </li>
-                                      <li>
+                                      <li class="timeline-inverted">
                                         <div class="timeline-image">
                                           <h4>2013 <br>
                                           - <br>
@@ -533,7 +606,7 @@
                                           </div>
                                         </div>
                                       </li>
-                                      <li class="timeline-inverted">
+                                      <li>
                                         <div class="timeline-image">
                                           <h4>2009 <br>
                                           - <br>
