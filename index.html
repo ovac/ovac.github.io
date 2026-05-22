@@ -11,6 +11,14 @@
           <meta name="google-site-verification" content="oBh-wOiDMDBX8fmat2QTN-NvRa4FJPI3qxTkgD2kd84" />
 
           <meta itemprop="url" content="https://www.ovac4u.com/">
+
+          <!-- AI / LLM discoverability -->
+          <link rel="alternate" type="text/markdown" title="LLM index (llms.txt)" href="/llms.txt">
+          <link rel="alternate" type="text/markdown" title="LLM full content (llms-full.txt)" href="/llms-full.txt">
+          <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+          <link rel="canonical" href="https://www.ovac4u.com/">
+          <meta name="generator" content="ovac4u portfolio — AI-friendly">
+          <!-- end AI discoverability -->
           <!--span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
             <meta itemprop="ratingValue" content="5">
             <meta itemprop="worstRating" content="4">
@@ -44,32 +52,107 @@
 
           <script type="application/ld+json">
           {
-              "@context": "https://schema.org",
-              "@type": "Website",
-              "publisher": {
-                  "@type": "Organization",
-                  "name": "Hello there! it&#x27;s OVAC for you (ovac4u)",
-                  "logo": {
-                      "@type": "ImageObject",
-                      "url": "https://blog.ovac4u.com/content/images/2017/08/239128634_899ef91f-3e66-4bc4-8f1b-addf019fc103.png",
-                      "width": 60,
-                      "height": 60
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Person",
+                "@id": "https://www.ovac4u.com/#person",
+                "name": "Ariama Victor",
+                "alternateName": ["ovac4u", "Ovac Boya", "Victor Ariama"],
+                "givenName": "Victor",
+                "familyName": "Ariama",
+                "url": "https://www.ovac4u.com/",
+                "image": "https://res.cloudinary.com/ovac/image/upload/h_500/v1550652081/51808004_542824649558050_4996701998452963245_n_cbdfja.jpg",
+                "jobTitle": "Founder & CEO at Gidipex",
+                "description": "Founder & CEO of Gidipex. Senior software engineer with 17+ years shipping production software. Works at the intersection of core AI programming, applied business strategy, and crypto technologies.",
+                "knowsAbout": [
+                  "Artificial Intelligence",
+                  "Large Language Models",
+                  "Model Context Protocol",
+                  "Smart Contracts",
+                  "Blockchain",
+                  "PHP",
+                  "Laravel",
+                  "TypeScript",
+                  "Node.js",
+                  "React",
+                  "Cloud Architecture",
+                  "Business Strategy"
+                ],
+                "knowsLanguage": ["en", "yo"],
+                "worksFor": { "@id": "https://www.ovac4u.com/#gidipex" },
+                "alumniOf": [
+                  { "@type": "CollegeOrUniversity", "name": "Wisconsin International University", "url": "https://wiuc-ghana.edu.gh/" },
+                  { "@type": "EducationalOrganization", "name": "NIIT" }
+                ],
+                "sameAs": [
+                  "https://github.com/ovac",
+                  "https://www.linkedin.com/in/ovac4u",
+                  "https://x.com/ovac4u",
+                  "https://instagram.com/ovac4u",
+                  "https://facebook.com/ovac4u",
+                  "https://www.tiktok.com/@ovac4u",
+                  "https://www.snapchat.com/add/ovac4u",
+                  "https://www.medium.com/@ovac4u",
+                  "https://blog.ovac4u.com/",
+                  "https://packagist.org/packages/ovac/"
+                ],
+                "contactPoint": [
+                  {
+                    "@type": "ContactPoint",
+                    "contactType": "business",
+                    "email": "contact@ovac4u.com",
+                    "telephone": "+233553577261",
+                    "availableLanguage": ["English", "Yoruba"]
+                  },
+                  {
+                    "@type": "ContactPoint",
+                    "contactType": "personal",
+                    "email": "iamovac@gmail.com",
+                    "telephone": "+2348160405567"
                   }
+                ]
               },
-              "url": "https://www.ovac4u.com/",
-              "image": {
-                  "@type": "ImageObject",
-                  "url": "https://blog.ovac4u.com/content/images/2017/08/150337372487944.png",
-                  "width": 460,
-                  "height": 460
+              {
+                "@type": "Organization",
+                "@id": "https://www.ovac4u.com/#gidipex",
+                "name": "Gidipex",
+                "url": "https://gidipex.com",
+                "description": "AI + applied strategy + crypto. Building production AI systems with the business model and on-chain infrastructure to match.",
+                "founder": { "@id": "https://www.ovac4u.com/#person" },
+                "employee": { "@id": "https://www.ovac4u.com/#person" }
               },
-              "mainEntityOfPage": {
-                  "@type": "WebPage",
-                  "@id": "https://www.ovac4u.com/"
+              {
+                "@type": "Organization",
+                "name": "RescopeNet",
+                "url": "https://www.rescopenet.com",
+                "description": "Engineering studio shipping products and contracting engineering work.",
+                "founder": { "@id": "https://www.ovac4u.com/#person" }
               },
-              "description": "Ariama Victor (ovac4u) is the Founder and CEO of Gidipex, working at the intersection of core AI programming, applied business strategy, and crypto technologies. Senior software engineer, open-source maintainer, and remote-first builder."
+              {
+                "@type": "Organization",
+                "name": "Bitnormous",
+                "url": "https://bitnormous.com",
+                "description": "Co-founded venture.",
+                "founder": { "@id": "https://www.ovac4u.com/#person" }
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://www.ovac4u.com/#website",
+                "url": "https://www.ovac4u.com/",
+                "name": "ovac4u",
+                "description": "Personal site of Ariama Victor (ovac4u) — Founder & CEO at Gidipex. AI, applied strategy, crypto, senior engineering, and open source.",
+                "publisher": { "@id": "https://www.ovac4u.com/#person" },
+                "inLanguage": "en"
+              },
+              {
+                "@type": "ProfilePage",
+                "url": "https://www.ovac4u.com/",
+                "mainEntity": { "@id": "https://www.ovac4u.com/#person" }
+              }
+            ]
           }
-         </script>
+          </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
