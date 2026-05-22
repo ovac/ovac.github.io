@@ -30,9 +30,9 @@ infrastructure into production. Earlier I founded **RescopeNet**, a studio
 that contracts engineering work and ships its own products.
 
 All of it sits under **Ariama Silicon Hub**, my holding company — alongside
-**ovac4u**, **jobaexpress**, **Paymiumm**, **Omnile**, and **QodeHub**. Seven
-companies founded or co-founded in total, plus the Payplux Ghana
-leadership role.
+**ovac4u**, the personal brand and operating entity for open-source,
+consulting, and advisory work. Five companies founded or co-founded in
+total, plus the Payplux Ghana leadership role (not owned).
 
 On the engineering side I work primarily in PHP/Laravel, TypeScript/Node,
 React/Next.js and Python for AI work. A lot of my open-source time goes into
@@ -57,8 +57,8 @@ founders working on AI-native or crypto-native products.
 
 - 96 public GitHub repositories
 - 500K+ OSS package installs (Packagist)
-- 7+ companies founded / co-founded (Ariama Silicon Hub, Gidipex,
-  Bitnormous, RescopeNet, ovac4u, jobaexpress, Paymiumm, Omnile, QodeHub)
+- 5 companies founded / co-founded (Ariama Silicon Hub, Gidipex,
+  Bitnormous, RescopeNet, ovac4u)
 - 5M+ happy customers & users (combined OSS users, end users of apps built on
   SDKs, and direct clients over 17 years)
 
@@ -228,10 +228,6 @@ sessions: $1,500 for a 90-minute deep dive.
 - **RescopeNet** — Engineering studio. Founder. <https://www.rescopenet.com>
 - **ovac4u** — Personal brand and operating entity for open-source,
   consulting, and advisory work. Founder.
-- **jobaexpress** — Founder.
-- **Paymiumm** — Founder.
-- **Omnile** — Founder.
-- **QodeHub** — Founder.
 
 ### Open source
 
