@@ -190,8 +190,8 @@
         <link rel="stylesheet" type="text/css" href="/css/ovac4u/owl.theme.css">
         <link rel="stylesheet" type="text/css" href="/css/ovac4u/prettyPhoto.css">
         <link rel="stylesheet" type="text/css" href="/css/ovac4u/jqinstagram.css">
-        <link href='//fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300&display=swap' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300&display=swap' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/ovac4u/vegas.min.css">
         <!-- Font Awesome 6 (brands) for X, TikTok, Snapchat icons missing in bundled FA4 -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous">
@@ -1497,17 +1497,33 @@
             // Start immediately with fallback so the hero is never blank
             startVegas(FALLBACK);
 
-            // Then try to upgrade with live Instagram via RSSHub.
-            // Meta routinely breaks public IG scrapers, so this fails silently if down.
+            // Then try to upgrade with live Instagram via RSSHub through a
+            // CORS proxy (RSSHub/rss.app don't set Access-Control-Allow-Origin,
+            // so a direct fetch from this origin is blocked). Meta also
+            // routinely breaks public IG scrapers, so this fails silently if
+            // any link in the chain is down.
             var IG_USER = 'ovac4u';
-            var FEEDS = [
+            var TARGETS = [
               'https://rsshub.app/instagram/user/' + IG_USER,
-              'https://rss.app/feeds/instagram/' + IG_USER  // alternate, may 404
+              'https://rss.app/feeds/instagram/' + IG_USER
+            ];
+            // CORS-relay proxies (public, free, best-effort). Tried in order.
+            var PROXIES = [
+              function (url) { return 'https://corsproxy.io/?url=' + encodeURIComponent(url); },
+              function (url) { return 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url); }
             ];
 
-            function tryFeed(i) {
-              if (i >= FEEDS.length) return;
-              fetch(FEEDS[i], { mode: 'cors' })
+            function attempts() {
+              var list = [];
+              TARGETS.forEach(function (t) {
+                PROXIES.forEach(function (p) { list.push(p(t)); });
+              });
+              return list;
+            }
+
+            function tryFeed(urls, i) {
+              if (i >= urls.length) return;  // give up silently; fallback stays
+              fetch(urls[i], { mode: 'cors' })
                 .then(function (r) { return r.ok ? r.text() : Promise.reject(r.status); })
                 .then(function (xml) {
                   var doc = new DOMParser().parseFromString(xml, 'application/xml');
@@ -1518,11 +1534,12 @@
                     return m ? { src: m[1] } : null;
                   }).filter(Boolean).slice(0, 12);
                   if (slides.length > 0) startVegas(slides);
+                  else tryFeed(urls, i + 1);
                 })
-                .catch(function () { tryFeed(i + 1); });
+                .catch(function () { tryFeed(urls, i + 1); });
             }
 
-            tryFeed(0);
+            tryFeed(attempts(), 0);
           });
         </script>
 
