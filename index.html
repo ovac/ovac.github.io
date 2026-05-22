@@ -218,6 +218,20 @@
               display: block;
             }
           }
+          /* Portfolio cards: when an install-count badge is present, hide the
+             decorative corner icon (it was overlapping the badge) and give
+             the badge a clean position. */
+          .grid-det img[alt="installs"] {
+              display: block;
+              margin-top: 8px;
+              position: relative;
+              z-index: 2;
+              max-width: 100%;
+              height: auto;
+          }
+          .grid-det:has(img[alt="installs"]) i {
+              display: none;
+          }
       </style>
     </head>
     <body>
@@ -1133,8 +1147,7 @@
                                             <div class="grid-det fl-wrap">
                                                 <h3><a href="/idoc">idoc</a></h3>
                                                 <span>Interactive Laravel docs &amp; OpenAPI 3.0 generator</span>
-                                                <img src="https://img.shields.io/packagist/dt/ovac/idoc?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs" style="margin-top:6px;">
-                                                <i class="fa fa-file-text-o"></i>
+                                                <img src="https://img.shields.io/packagist/dt/ovac/idoc?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs">
                                             </div>
                                         </div>
                                     </div>
@@ -1149,8 +1162,7 @@
                                             <div class="grid-det fl-wrap">
                                                 <h3><a href="/guardrails">guardrails</a></h3>
                                                 <span>Operational approvals engine for Laravel &mdash; multi-step approval workflows</span>
-                                                <img src="https://img.shields.io/packagist/dt/ovac/guardrails?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs" style="margin-top:6px;">
-                                                <i class="fa fa-shield"></i>
+                                                <img src="https://img.shields.io/packagist/dt/ovac/guardrails?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs">
                                             </div>
                                         </div>
                                     </div>
@@ -1165,8 +1177,7 @@
                                             <div class="grid-det fl-wrap">
                                                 <h3><a href="https://github.com/ovac/laravel-mcp-inspector">laravel-mcp-inspector</a></h3>
                                                 <span>MCP server inspector &amp; docs UI for Laravel</span>
-                                                <img src="https://img.shields.io/packagist/dt/ovac/laravel-mcp-inspector?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs" style="margin-top:6px;">
-                                                <i class="fa fa-cogs"></i>
+                                                <img src="https://img.shields.io/packagist/dt/ovac/laravel-mcp-inspector?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs">
                                             </div>
                                         </div>
                                     </div>
@@ -1196,8 +1207,7 @@
                                             <div class="grid-det fl-wrap">
                                                 <h3><a href="/hubtel-payment">hubtel-payment</a></h3>
                                                 <span>PHP client for the Hubtel Mobile Money API</span>
-                                                <img src="https://img.shields.io/packagist/dt/ovac/hubtel-payment?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs" style="margin-top:6px;">
-                                                <i class="fa fa-mobile"></i>
+                                                <img src="https://img.shields.io/packagist/dt/ovac/hubtel-payment?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs">
                                             </div>
                                         </div>
                                     </div>
@@ -1212,8 +1222,7 @@
                                             <div class="grid-det fl-wrap">
                                                 <h3><a href="/laravel-hubtel-payment">laravel-hubtel-payment</a></h3>
                                                 <span>Laravel package wrapping the Hubtel Server API</span>
-                                                <img src="https://img.shields.io/packagist/dt/ovac/laravel-hubtel-payment?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs" style="margin-top:6px;">
-                                                <i class="fa fa-cube"></i>
+                                                <img src="https://img.shields.io/packagist/dt/ovac/laravel-hubtel-payment?style=for-the-badge&amp;logo=packagist&amp;logoColor=white&amp;label=installs&amp;color=4F5D95" alt="installs">
                                             </div>
                                         </div>
                                     </div>
