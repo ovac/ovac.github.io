@@ -95,4 +95,6 @@ Allow: /
 
 # Sitemaps and LLM-readable index
 Sitemap: https://www.ovac4u.com/sitemap.xml
+Sitemap: https://www.ovac4u.com/sitemap-pages.xml
+Sitemap: https://www.ovac4u.com/blogs/sitemap.xml
 Sitemap: https://www.ovac4u.com/llms.txt
