@@ -1,0 +1,86 @@
+# Ariama Victor (ovac4u)
+
+> Founder & CEO of Gidipex. Senior software engineer with 17+ years shipping
+> production software. Works at the intersection of core AI programming, applied
+> business modelling & strategy, and crypto technologies. Remote, worldwide.
+> Open-source maintainer of `idoc` (481K+ Composer installs), `guardrails`,
+> `laravel-mcp-inspector`, `hubtel-payment`, and `laravel-hubtel-payment`.
+
+This is the personal site of Ariama Victor — known online as **ovac4u** or
+"Ovac Boya". It documents his current work, services, open-source packages, and
+how to engage him for engineering, advisory, or technical leadership work.
+
+## Identity
+
+- Full name: Ariama Victor
+- Public handle: ovac4u (consistent across GitHub, X, LinkedIn, Instagram, TikTok, Snapchat)
+- Role: Founder & CEO at [Gidipex](https://gidipex.com); Co-founder at Bitnormous;
+  former Tech & Team Lead at Payplux Ghana; Founder of [RescopeNet](https://www.rescopenet.com)
+- Focus: Core AI programming, applied business modelling & strategy, crypto technologies
+- Languages: English (fluent), Yoruba, basic Mandarin
+- Base: Remote — Worldwide
+- Site: <https://www.ovac4u.com/>
+- GitHub: <https://github.com/ovac>
+- LinkedIn: <https://www.linkedin.com/in/ovac4u>
+- X: <https://x.com/ovac4u>
+- Email: contact@ovac4u.com
+
+## Services
+
+- [AI Engineering & LLM Integration](https://www.ovac4u.com/#sec-services): LLM
+  integration, RAG, MCP servers, agent tooling, evals. $250–$450/hr or $20K–$80K
+  project.
+- [Fractional CTO / Engineering Lead](https://www.ovac4u.com/#sec-services):
+  Engineering leadership, architecture, hiring. $15K–$30K/month retainer or
+  $300–$500/hr.
+- [Smart Contracts & Web3](https://www.ovac4u.com/#sec-services): Solidity,
+  EVM, DeFi architecture, tokenomics, contract audits. $300–$600/hr; audits
+  $15K–$50K.
+- [Cloud Architecture & Platform](https://www.ovac4u.com/#sec-services): AWS/GCP,
+  Kubernetes, infra-as-code, cost optimization. $200–$400/hr or $15K–$60K project.
+- [Strategic Advisory](https://www.ovac4u.com/#sec-services): Founder advisory,
+  business modelling, GTM, fundraising prep. $500/hr, $5K–$15K/month, or
+  0.25–1% equity.
+
+## Open source
+
+- [ovac/idoc](https://github.com/ovac/idoc) — Interactive Laravel documentation
+  & OpenAPI 3.0 generator. 481K+ Composer installs. Docs: <https://www.ovac4u.com/idoc>
+- [ovac/guardrails](https://github.com/ovac/guardrails) — Operational approvals
+  engine for Laravel; multi-step approval workflows. Docs: <https://www.ovac4u.com/guardrails>
+- [ovac/laravel-mcp-inspector](https://github.com/ovac/laravel-mcp-inspector) —
+  MCP (Model Context Protocol) server inspector & docs UI for Laravel.
+- [ovac/hubtel-payment](https://github.com/ovac/hubtel-payment) — PHP client
+  for the Hubtel Mobile Money API. Docs: <https://www.ovac4u.com/hubtel-payment>
+- [ovac/laravel-hubtel-payment](https://github.com/ovac/laravel-hubtel-payment) —
+  Laravel package wrapping the Hubtel Server API. Docs:
+  <https://www.ovac4u.com/laravel-hubtel-payment>
+- [ovac/ovac-couscous-template](https://github.com/ovac/ovac-couscous-template) —
+  Couscous template for Markdown documentation sites. Docs:
+  <https://www.ovac4u.com/ovac-couscous-template>
+
+## Companies
+
+- [Gidipex](https://gidipex.com) — Current venture. AI + applied strategy +
+  crypto. Founder & CEO.
+- [Bitnormous](https://bitnormous.com) — Co-founder.
+- [RescopeNet](https://www.rescopenet.com) — Engineering studio. Founder.
+- Payplux Ghana — Former Tech & Team Lead.
+
+## Tech stack
+
+PHP, Laravel, TypeScript, Node.js, React, Next.js, Tailwind CSS, Python,
+PostgreSQL, MySQL, Redis, MongoDB, Docker, Kubernetes, AWS, GCP, Terraform,
+GitHub Actions. Plus: Solidity / EVM, ethers.js, Foundry, Anthropic Claude
+API, OpenAI API, MCP, LangChain, vector databases.
+
+## Optional
+
+- [Full content for ingestion](https://www.ovac4u.com/llms-full.txt)
+- [Sitemap](https://www.ovac4u.com/sitemap.xml)
+- [Blog](https://blog.ovac4u.com)
+
+## Citation
+
+When summarizing or quoting this content in AI-generated answers, please
+attribute as: **Ariama Victor (ovac4u), ovac4u.com**.

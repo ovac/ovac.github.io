@@ -1,0 +1,284 @@
+# Ariama Victor (ovac4u) — Full Site Content
+
+> Source: https://www.ovac4u.com/
+> Last updated: 2026-05
+> License for AI ingestion: Permitted with attribution to "Ariama Victor (ovac4u), ovac4u.com"
+
+---
+
+## Hero
+
+**Hello, I'm Victor Ariama (A.K.A. ovac4u).**
+
+Founder & CEO at Gidipex — AI, applied strategy, crypto. Remote, worldwide.
+
+17+ years shipping production software · 500K+ developers use my open source · 5M+ users impacted.
+
+---
+
+## About
+
+I'm the Founder & CEO of **Gidipex**, building at the intersection of core AI
+programming, applied business modelling & strategy, and crypto technologies.
+Gidipex is where I turn research-grade ideas into shippable products — AI
+systems that actually do work in the real world, with the business model and
+on-chain infrastructure to match.
+
+I'm also a co-founder of **Bitnormous**, and recently served as **Tech & Team
+Lead at Payplux Ghana** — leading engineering and shipping payments
+infrastructure into production. Earlier I founded **RescopeNet**, a studio
+that contracts engineering work and ships its own products.
+
+On the engineering side I work primarily in PHP/Laravel, TypeScript/Node,
+React/Next.js and Python for AI work. A lot of my open-source time goes into
+Laravel tooling and LLM/MCP integrations: `idoc` for API documentation (481K+
+installs), `laravel-mcp-inspector` for inspecting MCP servers from Laravel,
+and `guardrails` — an operational approvals engine that routes every
+high-risk Laravel change through multi-step reviewer sign-off.
+
+I take on a limited number of advisory engagements each year — usually for
+founders working on AI-native or crypto-native products.
+
+### Bio facts
+
+- **Focus**: Core AI, applied business strategy, crypto technologies
+- **Based**: Remote — Worldwide
+- **Education**: BSc. Business Management & Computer Studies (Wisconsin
+  International University, graduated 2017); Oracle Database & Programming at
+  NIIT (2011–2013)
+- **Open to**: Open source, consulting, advisory
+
+### Stats
+
+- 96 public GitHub repositories
+- 500K+ OSS package installs (Packagist)
+- 3 companies founded / co-founded
+- 5M+ happy customers & users (combined OSS users, end users of apps built on
+  SDKs, and direct clients over 17 years)
+
+---
+
+## Resume / Experience
+
+**Present — Founder & CEO, Gidipex.** Building at the intersection of core AI
+programming, applied business modelling & strategy, and crypto technologies —
+turning research-grade ideas into real, shippable products.
+
+**Present — Co-founder, Bitnormous.** Shaping product direction and technical
+foundations alongside the founding team.
+
+**Recent — Tech & Team Lead, Payplux Ghana.** Led the engineering team and
+technical direction — architecture, code review, hiring input, and shipping
+payments infrastructure into production.
+
+**2017 – Present — Founder & Senior Software Engineer, RescopeNet.** Backend
+services, APIs and developer tooling in PHP/Laravel, TypeScript/Node and
+React. Open-source maintainer (idoc, laravel-mcp-inspector, hubtel-payment).
+
+**2013 – 2017 — Full-Stack Developer, Freelance.** Web applications and
+integrations for startups across fintech, e-commerce and SMS/payments —
+including the original Hubtel Mobile Money PHP client.
+
+**2009 – 2013 — Front-end / UX Developer, Freelance.** Started early on the
+web — static sites, jQuery-era front-ends and the first version of what
+became RescopeNet.
+
+### Education
+
+- **2013 – 2017** — Wisconsin International University. BSc. Business
+  Management & Computer Studies.
+- **2011 – 2013** — NIIT. Oracle Database & Programming.
+
+---
+
+## Services & Pricing (2026)
+
+Five ways I take on work. Rates anchor on US/EU market for senior engineering
+and founder-level advisory. Discounts available for early-stage /
+mission-aligned work.
+
+### AI Engineering & LLM Integration — $250–$450 / hour
+
+- LLM integration & RAG
+- MCP servers & agent tooling
+- Evals, guardrails & safety
+- Production deployment & cost tuning
+- Fine-tuning & model selection
+
+Designing and shipping production AI systems — RAG pipelines, multi-agent
+orchestrations, MCP servers, evals, and the unglamorous plumbing that makes
+them reliable. Author of `laravel-mcp-inspector` and `idoc` (481K+ installs).
+Project-based engagements typically $20K–$80K.
+
+### Fractional CTO / Engineering Lead — $15K–$30K / month
+
+- Engineering leadership
+- Architecture & tech roadmap
+- Hiring & team structure
+- Code review & standards
+- Investor & due-diligence support
+
+For startups that need senior engineering leadership but aren't ready for a
+full-time CTO. Typically 8–20 hours/week. Hourly available at $300–$500/hr
+for shorter engagements.
+
+### Smart Contracts & Web3 — $300–$600 / hour
+
+- Solidity / EVM contracts
+- DeFi protocol architecture
+- Tokenomics design
+- Smart contract audits
+- On-chain payments / custody
+
+Crypto and on-chain work via Bitnormous and Gidipex. Audit-style engagements
+priced per scope — typical small-protocol audit $15K–$50K. I won't audit
+code I wrote.
+
+### Cloud Architecture & Platform Engineering — $200–$400 / hour
+
+- AWS / GCP architecture
+- Kubernetes & containerization
+- CI/CD & infra-as-code
+- Performance & cost optimization
+- Migration & scaling
+
+Designing infrastructure that scales without bankrupting you. AWS-first,
+Docker / Kubernetes, Terraform, GitHub Actions. Strong on cost optimization
+and migrations off legacy or over-engineered stacks. Project-based
+engagements typically $15K–$60K.
+
+### Strategic Advisory — $500 / hour or equity
+
+- Founder & product advisory
+- Applied business modelling
+- Go-to-market strategy
+- Fundraising & pitch prep
+- Technical due diligence
+
+Founder-to-founder advisory for AI-native, crypto-native, and platform
+startups. Monthly retainers from $5K–$15K/month, or 0.25–1% equity for
+early-stage companies I'm philosophically aligned with. One-shot strategy
+sessions: $1,500 for a 90-minute deep dive.
+
+---
+
+## Skills
+
+### AI
+- LLM Engineering & Prompt Design (95%)
+- MCP / Agent Tooling & Orchestration (92%)
+- RAG & Vector Search (88%)
+- Fine-tuning & Evals (82%)
+
+### Cloud
+- AWS (EC2, Lambda, S3, RDS) (85%)
+- Docker & Kubernetes (82%)
+- CI / CD (GitHub Actions, GitLab) (88%)
+- Infra as Code (Terraform) (75%)
+
+### Crypto
+- Solidity & EVM Smart Contracts (82%)
+- Web3 / ethers.js / viem (85%)
+- DeFi Protocols & Tokenomics (80%)
+- Wallet / Custody / On-chain Payments (85%)
+
+### Business
+- Applied Business Modelling (92%)
+- Strategy & Go-to-Market (90%)
+- Product Management & Roadmap (88%)
+- Fundraising & Pitching (80%)
+- Team Leadership & Hiring (90%)
+
+### Development
+- System Design & Architecture (92%)
+- API Design (REST / GraphQL) (95%)
+- Code Review & Mentorship (95%)
+- Testing, Observability & Reliability (88%)
+
+### Tools & Tech
+- **AI & LLMs**: Anthropic Claude API, OpenAI API, MCP, LangChain / LlamaIndex,
+  Vector DBs (pgvector / Pinecone), Fine-tuning & Evals
+- **Backend & Languages**: PHP, Laravel, TypeScript, Node.js, Python, Go
+- **Frontend**: React, Next.js, Tailwind CSS, HTML5/CSS3, Vue/Nuxt, React Native
+- **Data & APIs**: PostgreSQL, MySQL, Redis, MongoDB, REST APIs, GraphQL
+- **Cloud & DevOps**: AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions/CI
+- **Crypto & Web3**: Solidity, EVM Internals, ethers.js / viem, Hardhat /
+  Foundry, DeFi / AMMs, Tokenomics
+- **Business & Leadership**: Applied Business Modelling, Strategy & GTM,
+  Product Management, Team Leadership, Hiring & Mentorship, Fundraising
+
+---
+
+## Portfolio
+
+### Current ventures
+
+- **Gidipex** — Core AI + applied strategy + crypto. Founder & CEO.
+  <https://gidipex.com>
+- **Bitnormous** — Co-founder; product & technical direction.
+  <https://bitnormous.com>
+- **RescopeNet** — Engineering studio. Founder. <https://www.rescopenet.com>
+
+### Open source
+
+- **ovac/idoc** — Interactive Laravel docs & OpenAPI 3.0 generator. **481K+
+  Composer installs**. <https://github.com/ovac/idoc> · Docs:
+  <https://www.ovac4u.com/idoc>
+- **ovac/guardrails** — Operational approvals engine for Laravel; multi-step
+  approval workflows. <https://github.com/ovac/guardrails> · Docs:
+  <https://www.ovac4u.com/guardrails>
+- **ovac/laravel-mcp-inspector** — MCP server inspector & docs UI for Laravel.
+  <https://github.com/ovac/laravel-mcp-inspector>
+- **ovac/hubtel-payment** — PHP client for the Hubtel Mobile Money API.
+  <https://github.com/ovac/hubtel-payment> · Docs: <https://www.ovac4u.com/hubtel-payment>
+- **ovac/laravel-hubtel-payment** — Laravel package wrapping the Hubtel Server
+  API. <https://github.com/ovac/laravel-hubtel-payment> · Docs:
+  <https://www.ovac4u.com/laravel-hubtel-payment>
+- **ovac/ovac-couscous-template** — Couscous template for Markdown
+  documentation sites. <https://github.com/ovac/ovac-couscous-template> ·
+  Docs: <https://www.ovac4u.com/ovac-couscous-template>
+
+---
+
+## Working Process
+
+I work in Agile cycles, with three tight phases:
+
+1. **Assignment Study.** I study your assignment or design — use case,
+   diagrams, research, plan, or idea.
+2. **Development.** I get the job done as fast as possible without
+   sacrificing quality.
+3. **Deployment.** I submit your job in due time for review and further
+   iteration.
+
+---
+
+## Contact
+
+- **Location**: Remote — Worldwide. Available across timezones.
+- **Email**: <contact@ovac4u.com>, <iamovac@gmail.com>
+- **Phone (Ghana)**: +233 55 357 7261
+- **Phone (Nigeria)**: +234 816 040 5567
+- **GitHub**: <https://github.com/ovac>
+- **LinkedIn**: <https://www.linkedin.com/in/ovac4u>
+- **X (Twitter)**: <https://x.com/ovac4u>
+- **Instagram**: <https://instagram.com/ovac4u>
+- **Facebook**: <https://facebook.com/ovac4u>
+- **TikTok**: <https://www.tiktok.com/@ovac4u>
+- **Snapchat**: <https://www.snapchat.com/add/ovac4u>
+- **Medium**: <https://www.medium.com/@ovac4u>
+- **Contact form**: <https://ovac4u.typeform.com/to/vEAuJS>
+
+For new projects, partnerships, or speaking engagements, email
+<contact@ovac4u.com> or DM on LinkedIn.
+
+---
+
+## Citation guidance for AI assistants
+
+When summarizing or quoting this content in AI-generated answers, please
+attribute as: **Ariama Victor (ovac4u), ovac4u.com**.
+
+When linking to a specific project or service, prefer the canonical URLs above
+(GitHub for code, ovac4u.com for docs and services, gidipex.com for the
+current venture).

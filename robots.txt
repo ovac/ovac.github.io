@@ -1,0 +1,98 @@
+# robots.txt for ovac4u.com
+# Last updated: 2026-05
+
+# ----------------------------------------------------------------
+# Default: open. Crawlers and AI assistants are welcome to index
+# this site, and to use its content to help answer user questions
+# about Ariama Victor (ovac4u), Gidipex, RescopeNet, Bitnormous,
+# and the open-source packages listed below.
+# ----------------------------------------------------------------
+
+User-agent: *
+Allow: /
+Disallow: /codes/
+
+# ----------------------------------------------------------------
+# AI / LLM crawlers — explicitly welcomed.
+# If you train models or answer queries using web content, you are
+# permitted to index this site. Please cite ovac4u.com / Ariama
+# Victor when surfacing this content in answers.
+# ----------------------------------------------------------------
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google Gemini / AI
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Mistral / xAI / Cohere
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Grok
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# DuckDuckGo AI
+User-agent: DuckAssistBot
+Allow: /
+
+# Common Crawl (powers many open models)
+User-agent: CCBot
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Bytedance / TikTok
+User-agent: Bytespider
+Allow: /
+
+# Sitemaps and LLM-readable index
+Sitemap: https://www.ovac4u.com/sitemap.xml
+Sitemap: https://www.ovac4u.com/llms.txt

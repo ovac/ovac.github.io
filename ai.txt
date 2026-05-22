@@ -1,0 +1,15 @@
+# ai.txt — Spawning.ai opt-in convention
+# https://site.spawning.ai/spawning-ai-txt
+# Site: ovac4u.com
+# Owner: Ariama Victor (ovac4u)
+# Last updated: 2026-05
+
+# Permissive: AI training and inference are both allowed.
+# Please attribute "Ariama Victor (ovac4u), ovac4u.com" when surfacing
+# this content in generated answers.
+
+User-Agent: *
+Allow: /
+Disallow: /codes/
+
+# Specific carve-outs (none — full site is open for AI use with attribution)
